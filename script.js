@@ -16,7 +16,7 @@ const kidItens = ['Filé Mignon Kid', 'Frango Kid'];
 function pesquisarItem(event){
     event.preventDefault();
 
-    const itemPesquisado = document.getElementById('item-pesquisado').value;
+    const itemPesquisado = document.getElementById('item-pesquisado').value.trim();
 
     if (entradasItens.map(item => item.toLowerCase()).includes(itemPesquisado.toLowerCase())) {
         window.location.href = '#entradas'
