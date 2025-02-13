@@ -48,10 +48,6 @@
         border-radius: 7px;
     }
 
-    #lupa-img {
-        display: none;
-    }
-
     .cabecalho img {
         width: 15vh;
         height: 15vh;
@@ -105,10 +101,6 @@
         height: 8vh;
         margin-right: 2vh;
         border-radius: 7px;
-    }
-
-    #lupa-img {
-        display: none;
     }
 
     .cabecalho img {
