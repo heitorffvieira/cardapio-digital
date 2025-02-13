@@ -1,0 +1,168 @@
+@media screen and (max-width: 576px){
+    .itens-cardapio {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .container {
+        padding: 5vh 3vh;
+    }
+
+    .item-cardapio img {
+        width: 17vh;
+        height: 14vh;
+    }
+
+    .cabecalho {
+        margin: 5vh;
+        height: 43vh;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.9rem;
+    }
+
+    .menu-cabecalho {
+        margin-left: 3vh;
+    }
+
+    .links-navegacao {
+        overflow-x: auto;
+        gap: 3vh;
+        white-space: nowrap;
+        justify-content: normal;
+    }
+
+    .pesquisa {
+        margin: 3vh;
+        padding: 1vh;
+        justify-content: normal;
+        gap: 1.5vh;
+    }
+
+    form {
+        border: none;
+        background-color: rgba(255, 166, 0, 0.54);
+        width: 100%;
+        height: 8vh;
+        margin-right: 2vh;
+        border-radius: 7px;
+    }
+
+    #lupa-img {
+        display: none;
+    }
+
+    .cabecalho img {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .underline-container {
+        margin: 0 3vh;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 800px){
+    .itens-cardapio {
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+
+    .container {
+        padding: 5vh 3vh;
+    }
+
+    .item-cardapio img {
+        width: 17vh;
+        height: 14vh;
+    }
+
+    .cabecalho {
+        margin: 5vh;
+        height: 43vh;
+    }
+
+    .cabecalho h1 {
+        font-size: 1.9rem;
+    }
+
+    .links-navegacao {
+        overflow-x: auto;
+        gap: 3vh;
+        white-space: nowrap;
+    }
+
+    .pesquisa {
+        margin: 3vh;
+        padding: 1vh;
+        justify-content: normal;
+        gap: 1.5vh;
+    }
+
+    form {
+        border: none;
+        background-color: rgba(255, 166, 0, 0.54);
+        width: 100%;
+        height: 8vh;
+        margin-right: 2vh;
+        border-radius: 7px;
+    }
+
+    #lupa-img {
+        display: none;
+    }
+
+    .cabecalho img {
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .underline-container {
+        margin: 0 3vh;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1250px){
+    .container {
+        padding: 5vh 3vh;
+    }
+
+    .underline-container {
+        margin: 0 3vh;
+    }
+
+    .cabecalho {
+        margin: 10vh;
+    }
+
+    .pesquisa {
+        margin: 3vh;
+    }
+
+    .item-cardapio img {
+        width: 17vh;
+        height: 14vh;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1350px){
+    .container {
+        padding: 7vh 6vh;
+    }
+
+    .underline-container {
+        margin: 0 6vh;
+    }
+
+    .cabecalho {
+        margin: 15vh;
+    }
+
+    .pesquisa {
+        margin: 3vh;
+    }
+
+    .item-cardapio img {
+        width: 20vh;
+        height: 17vh;
+    }
+}

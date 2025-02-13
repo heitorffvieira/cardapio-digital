@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+
+</head>
+<body>
+
+    <div class="pesquisa">
+
+        <img src="assets/logo-restaurante.jpg" alt="" id="logo">
+
+        <form onsubmit="pesquisarItem(event)">
+            <img src="assets/lupa 1.png" alt="" id="lupa-img">
+            <input type="search" placeholder="Pesquisar item" id="item-pesquisado">
+        </form>
+
+    </div>
+
+    <div class="cabecalho" style="background-image: url(assets/bg-inicial.jpg);">
+        <header>
+            <img src="assets/logo-restaurante.jpg" alt="">
+            <h1>HV Camarões</h1>
+            <p>Confira nosso cardápio!</p>
+        </header>
+    </div>
+
+    <header class="title">
+        <h1>Nosso Menu</h1>
+        <div class="underline"></div>
+    </header>
+
+    <nav class="menu-cabecalho">
+        <ul class="links-navegacao">
+            <a href="#entradas"><li class="item-menu">Entradas</li></a>
+            <a href="#principais"><li class="item-menu">Pratos Principais</li></a>
+            <a href="#bebidas"><li class="item-menu">Bebidas e Drinks</li></a>
+            <a href="#kids"><li class="item-menu">Kids</li></a>
+        </ul>
+    </nav>
+
+    <section class="container" id="entradas">
+
+        <div class="itens-cardapio">
+
+            <div class="item-cardapio">
+
+                <img src="assets/espeto-camarao.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Espeto de Camarões</h3>
+                        <span>R$ 35.00</span>
+                    </div>
+    
+                    <p>Camarões (110g) servidos com cubos de tomate aromatizados com azeite, alcaparra e azeitona.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+    
+                <img src="assets/parmegiana.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Parmegiana Aperitivo</h3>
+                        <span>R$ 39.00</span>
+                    </div>
+    
+                    <p>
+                        Tiras de filé-mignon (300g) empanadas e gratinadas com mussarela, parmesão e molho de tomate. Acompanham batata-frita.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="assets/crostini.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Crostini de Camarões</h3>
+                        <span>R$ 42.00</span>
+                    </div>
+    
+                    <p>Torradas de ervas finas cobertas com concassé de tomate e camarões grelhados temperados com molho pesto de manjericão</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="assets/cevichi.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Ceviche</h3>
+                        <span>R$ 47.00</span>
+                    </div>
+    
+                    <p>Marinado com limão, azeite, um leve toque de pimenta dedo-de-moça, tomate, pimentão verde, cebola, batata-doce e coentro. Acompanha torradas.</p>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </section>
+
+    <div class="underline-container"></div>
+
+    <section class="container" id="principais">
+
+        <div class="itens-cardapio">
+
+            <div class="item-cardapio">
+    
+                <img src="assets/risoto-camarao.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Risoto de Camarão</h3>
+                        <span>R$ 50.00</span>
+                    </div>
+    
+                    <p>
+                        Camarões (400g), caldo de camarão, cebola picada, dente de alho picado, pimenta-do-reino a gosto, tomate picado, arroz-arbório, vinho branco seco, queijo parmesão, salsinha picada.</p>
+    
+                </div>
+    
+            </div>
+    
+            <div class="item-cardapio">
+
+                <img src="assets/espaguete-ao-pesto.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Spaguetti ao Pesto</h3>
+                        <span>R$ 54.00</span>
+                    </div>
+    
+                    <p>Camarões (333g) salteados com azeite, alho, molho de tomate fresco, rúcula, tomate seco e azeitona preta, cobertos com alho crocante.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="assets/moqueca-camarao.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Moqueca de Camarão</h3>
+                        <span>R$ 68.00</span>
+                    </div>
+    
+                    <p>Deliciosa moqueca preparada em panela de barro acompanhada de arroz branco, farofa de dendê e pirão.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="assets/arroz-polvo.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Arroz de Polvo e Camarões</h3>
+                        <span>R$ 72.00</span>
+                    </div>
+    
+                    <p>Delicioso arroz refogado com polvo fatiado (200g) e camarões (110g), alho, tomate fresco, cebola roxa, pimentão, azeitonas, leite de coco, queijo coalho e cebolinha.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="assets/bobo-camarao.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Bobó de Camarão</h3>
+                        <span>R$ 75.00</span>
+                    </div>
+    
+                    <p>Camarões (333g) refogados com pimenta dedo-de-moça, cebola, tomate, pimentão verde, coentro e cebolinha, creme de macaxeira, leite de coco e um leve toque de azeite de dendê. Finalizado com castanha de caju. Acompanham arroz com lascas de coco e farofa de dendê.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="https://cdn.jornalibia.com.br/wp-content/uploads/2018/01/camar%C3%A3o-2.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Ao Molho de Camarões</h3>
+                        <span>R$ 81.00</span>
+                    </div>
+    
+                    <p>Filés (500g) grelhados com molho de camarões (110g) e alho poró. Acompanham arroz com tomate fresco, cebola, pimentão verde, leite de coco, queijo coalho e cebolinha, finalizados com castanha de caju</p>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </section>
+
+    <div class="underline-container"></div>
+
+    <section class="container" id="bebidas">
+
+        <div class="itens-cardapio">
+
+            <div class="item-cardapio">
+
+                <img src="assets/coquetel.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Coquetel de Frutas</h3>
+                        <span>R$ 35.00</span>
+                    </div>
+    
+                    <p>Aquele Coquetel de Frutas que você deseja. Taça de 500ml</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+    
+                <img src="assets/vinho.avif" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Vinho</h3>
+                        <span>R$ 42.00</span>
+                    </div>
+    
+                    <p>Um Vinho para dar um sabor especial a refeição. Taça de 500ml</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="https://media.seudinheiro.com/uploads/2020/02/garrafas-heineken-1920x1080-715x402.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Heineken</h3>
+                        <span>R$ 18.00</span>
+                    </div>
+    
+                    <p>Uma cervejinha bem gelada para curtir a refeição com estilo. Garrafa de 600ml.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+
+                <img src="assets/refri.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Refrigerante</h3>
+                        <span>R$ 12.00</span>
+                    </div>
+    
+                    <p>Um refri especial para refrescar, uma ótima pedida para as crianças.</p>
+    
+                </div>
+    
+            </div>
+    
+        </div>
+
+    </section>
+
+    <div class="underline-container"></div>
+
+    <section class="container" id="kids">
+
+        <div class="itens-cardapio">
+
+            <div class="item-cardapio">
+
+                <img src="assets/file-mignon.jpg" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Filé Mignon Kid</h3>
+                        <span>R$ 37.00</span>
+                    </div>
+    
+                    <p>Cubinhos de filé-mignon (100g). Acompanham arroz branco e batata-frita.</p>
+    
+                </div>
+    
+            </div>
+
+            <div class="item-cardapio">
+    
+                <img src="assets/frango-kid.webp" alt="">
+    
+                <div class="conteudo-item">
+    
+                    <div class="title-item">
+                        <h3>Frango Kid</h3>
+                        <span>R$ 39.00</span>
+                    </div>
+    
+                    <p>Cubinhos de peito de frango (100g). Acompanham fettuccini preparado com molho branco ou ao sugo</p>
+    
+                </div>
+    
+            </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
