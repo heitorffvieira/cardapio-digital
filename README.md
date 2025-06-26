@@ -5,6 +5,8 @@
 ### 💻 Sabendo disso, desenvolvi um cardápio digital para um restaurante com a culinária especializada em camarões. Ele tem uma barra de pesquisa para itens do menu e, quando o usuário pesquisar, será redirecionado ao item. Foi feito de acordo com o estilo e as cores do restaurante e, há também um menu fixo para o usuário escolher que parte do cardápio ele quer conferir.
 
 ### 🌐 Acesse em: https://hv-camaroes.vercel.app/
+![image](https://github.com/user-attachments/assets/fdf0ef39-2297-42aa-aa90-40aa1c197c7e)
+![image](https://github.com/user-attachments/assets/23daa97c-a525-45f0-aa51-cfddcbd3cedc)
 
 ## 🤖 TECNOLOGIAS USADAS:
 
